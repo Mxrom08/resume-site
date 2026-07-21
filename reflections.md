@@ -23,10 +23,12 @@ appropriate.)
 ## 3a - Learning the Terminal
 **I learned that i can simply prevent a typo by hitting tab.** Something that surprised me was that I can just open the laptops own terminal and navigate to vs code from there. Something that still feels a little weird is using the arrow keys to navigate left and right on the terminal instead of a mouse.
 ## 3b - Basics of HTML
-In this lesson I learned how to form headings, sub heading, paragraphs, and list in HTML. I also learned that with HTML you can make comments by doing <\!-- --> (remove back slash when making comments). 
+In this lesson I learned how to form headings, sub heading, paragraphs, and list in HTML. I also learned that with HTML you can make comments by doing <\!-- -->. 
 ## Lesson 4 — CSS
 ## Lesson 4a - CSS
 **I learned that there is ranking to css.** If a line of code is more specific then another line of conflicting code then it will take the more specific line of code as the output. It doesn't matter if the more specific line of code comes earlier that the less specific line. Padding is the spacing inside a rectangle between the edge and content inside the rectangle. Cascade can make CSS so much harder because there could be a hidden piece of code that conflicts with the newest line of code you're trying to write out but it doesn't work because that hidden piece of code is more specific than the line of code you're writing.
+## 4b-tailwind
+I picked the bold layout because it seemed like a pretty basic and simply layout. It was also pretty easy on my eyes and I think the colors make it look really cool. One class I now know for CSS is the text class.
 ## Lesson 5 — JavaScript
 <!-- TODO -->
 
