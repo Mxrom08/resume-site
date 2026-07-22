@@ -30,4 +30,4 @@ toggleButton.addEventListener('click', function () {
 // ==========================================
 // ONLY ADD YOUR OWN CODE BELOW THIS LINE
 // ==========================================
-console.log('My page loaded');
+console.log('it loaded lol');
