@@ -14,7 +14,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 
 <script>
-  tailwind.config = { theme: { extend: {
+  tailwind.config = { darkMode: 'class', theme: { extend: {
     colors: {
       ink: '#1B1B1B',   // Body text. LOCKED - 17:1 contrast on white. Do not change.
 
@@ -45,23 +45,23 @@
 </style>
 </head>
 
-<body class="bg-ink font-sans text-white leading-normal">
+<body class="bg-ink font-sans text-white leading-normal dark:bg-white dark:text-ink">
 
 <!-- ===================== ONLY EDIT BELOW THIS LINE ===================== -->
 
 <!-- HEADER -->
 <header id="top" class="px-6 pb-16 pt-20">
   <div class="mx-auto max-w-5xl">
-    <p class="mb-6 text-sm font-bold uppercase tracking-[0.3em] text-pop">Portfolio</p>
+    <p class="mb-6 text-sm font-bold uppercase tracking-[0.3em] text-pop dark:text-brand">Portfolio</p>
     <h1 class="text-display font-bold">Maximus<br>Roman</h1>
 
-    <div class="mt-10 flex flex-col items-start gap-6 border-t-2 border-white/20 pt-8 sm:flex-row sm:items-center">
+    <div class="mt-10 flex flex-col items-start gap-6 border-t-2 border-white/20 dark:border-ink/20 pt-8 sm:flex-row sm:items-center">
 
       <!-- PHOTO. Using initials instead? Delete this <img> and uncomment the <div> below it. -->
       <img src="headshot.jpg" alt="Maximus Roman" class="h-24 w-24 shrink-0 object-cover grayscale">
       <!-- <div class="flex h-24 w-24 shrink-0 items-center justify-center bg-pop text-3xl font-bold text-ink">YN</div> -->
 
-      <p class="max-w-md text-lg text-white/80">Aspiring Game Developer</p>
+      <p class="max-w-md text-lg text-white/80 dark:text-ink/80">Aspiring Game Developer</p>
     </div>
   </div>
 </header>
@@ -69,9 +69,9 @@
 <main class="mx-auto max-w-5xl px-6">
 
   <!-- ABOUT -->
-  <section id="about" class="border-t-2 border-white/20 py-16">
+  <section id="about" class="border-t-2 border-white/20 dark:border-ink/20 py-16">
     <div class="grid gap-8 md:grid-cols-[200px_1fr]">
-      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop">About</h2>
+      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop dark:text-brand">About</h2>
       <p class="text-huge font-bold">
         I love to play videos with my friends and have always had a passion for coding. My favorite animal would have to be a chameleon. Another passion I have is drawing even though I'm not any good at it.
       </p>
@@ -79,47 +79,47 @@
   </section>
 
   <!-- PROJECTS -->
-  <section id="projects" class="border-t-2 border-white/20 py-16">
+  <section id="projects" class="border-t-2 border-white/20 dark:border-ink/20 py-16">
     <div class="grid gap-8 md:grid-cols-[200px_1fr]">
-      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop">Projects</h2>
+      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop dark:text-brand">Projects</h2>
       <div class="space-y-10">
         <article class="group">
-          <h3 class="text-3xl font-bold transition group-hover:text-pop">Mechanical Engineering Digital Portfolio</h3>
-          <p class="mt-2 max-w-2xl text-lg text-white/70">-This digital portfolio is a website using google sites.</p>
-          <p class="mt-2 max-w-2x1 text-lg text-white/70">-This portfolio contains all my projects from my 2 years in the Mechanical Engineering Pathway.</p>
-          <p class="mt-2 max-w-2x1 text-lg text-white/70">-Demonstrates skils such as circuit and AOI circuit knowledge</p>
+          <h3 class="text-3xl font-bold transition group-hover:text-pop dark:text-brand">Mechanical Engineering Digital Portfolio</h3>
+          <p class="mt-2 max-w-2xl text-lg text-white/70 dark:text-ink/70">-This digital portfolio is a website using google sites.</p>
+          <p class="mt-2 max-w-2x1 text-lg text-white/70 dark:text-ink/70">-This portfolio contains all my projects from my 2 years in the Mechanical Engineering Pathway.</p>
+          <p class="mt-2 max-w-2x1 text-lg text-white/70 dark:text-ink/70">-Demonstrates skils such as circuit and AOI circuit knowledge</p>
         </article>
         <article class="group">
-          <h3 class="text-3xl font-bold transition group-hover:text-pop">Birthday Circuit</h3>
-          <p class="mt-2 max-w-2xl text-lg text-white/70">-This circuit was made up of multiple AOI logic gates, 3 switches, and a seven segment display.</p>
-          <p class="mt-2 max-w-2xl text-lg text-white/70">-By flipping the 3 switches in a certain order our birthday should appear in this order one digit at a time mm/dd/year</p>
-          <p class="mt-2 max-w-2xl text-lg text-white/70">-A key takeaway from this project is that we learned that by reusing certain signals we can make our circuit appear a lot more clean.</p>
+          <h3 class="text-3xl font-bold transition group-hover:text-pop dark:text-brand">Birthday Circuit</h3>
+          <p class="mt-2 max-w-2xl text-lg text-white/70 dark:text-ink/70">-This circuit was made up of multiple AOI logic gates, 3 switches, and a seven segment display.</p>
+          <p class="mt-2 max-w-2xl text-lg text-white/70 dark:text-ink/70">-By flipping the 3 switches in a certain order our birthday should appear in this order one digit at a time mm/dd/year</p>
+          <p class="mt-2 max-w-2xl text-lg text-white/70 dark:text-ink/70">-A key takeaway from this project is that we learned that by reusing certain signals we can make our circuit appear a lot more clean.</p>
         </article>
       </div>
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section id="skills" class="border-t-2 border-white/20 py-16">
+  <section id="skills" class="border-t-2 border-white/20 dark:border-ink/20 py-16">
     <div class="grid gap-8 md:grid-cols-[200px_1fr]">
-      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop">Skills</h2>
+      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop dark:text-brand">Skills</h2>
       <ul class="flex flex-wrap gap-x-8 gap-y-3 text-2xl font-bold">
         <li>Learning HTML</li>
-        <li class="text-white/40">/</li>
+        <li class="text-white/40 dark:text-ink/40">/</li>
         <li>Learning CSS</li>
-        <li class="text-white/40">/</li>
+        <li class="text-white/40 dark:text-ink/40">/</li>
         <li>Python for VEX</li>
       </ul>
     </div>
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="border-t-2 border-white/20 py-16">
+  <section id="contact" class="border-t-2 border-white/20 dark:border-ink/20 py-16">
     <div class="grid gap-8 md:grid-cols-[200px_1fr]">
-      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop">Contact</h2>
+      <h2 class="text-sm font-bold uppercase tracking-[0.3em] text-pop dark:text-brand">Contact</h2>
       <div>
         <a href="#"
-           class="text-huge font-bold text-white underline decoration-pop decoration-4 underline-offset-8 transition hover:text-pop focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-pop">
+           class="text-huge font-bold text-white dark:text-ink underline decoration-pop dark:decoration-brand decoration-4 underline-offset-8 transition hover:text-pop dark:text-brand focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-pop">
           Mxrom.08@gmail.com
         </a>
       </div>
@@ -128,11 +128,16 @@
 
 </main>
 
-<!-- FOOTER -->
-<footer id="footer" class="border-t-2 border-white/20 px-6 py-10">
-  <p class="mx-auto max-w-5xl text-sm text-white/60">&copy; 2026 Maximus Roman</p>
-</footer>
+<button id="dark-mode-toggle"
+        class="mx-auto mb-8 block rounded border-2 border-pop px-4 py-2 text-sm text-pop dark:text-brand dark:border-brand dark:text-brand">
+  Lights On
+</button>
 
+<!-- FOOTER -->
+<footer id="footer" class="border-t-2 border-white/20 dark:border-ink/20 px-6 py-10">
+  <p class="mx-auto max-w-5xl text-sm text-white/60 dark:text-ink/60">&copy; 2026 Maximus Roman</p>
+</footer>
+<script src="script.js"></script>
 <!-- ===================== ONLY EDIT ABOVE THIS LINE ===================== -->
 
 </body>

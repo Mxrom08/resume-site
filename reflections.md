@@ -32,7 +32,7 @@ I picked the bold layout because it seemed like a pretty basic and simply layout
 ## 4c - Headshot
 I picked a photo as I assumed people can get my initials just from my name which is all over the page. The only thing that surprised me about moving my file into the right place was that it had to be in the exact same folder as my index.html so it would work.
 ## Lesson 5 — JavaScript
-<!-- TODO -->
+I expected javascript to be a little more complicated before I read it. It was faily simple as everything is connected through a class or id. The console showed me whether or not ther was an error with javascript or any other conflicting problem on my website.
 
 ## Lesson 6 — Building my resume
 <!-- TODO -->

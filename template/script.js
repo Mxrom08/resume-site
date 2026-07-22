@@ -21,12 +21,13 @@ toggleButton.addEventListener('click', function () {
   // 4. Change the button's own label so it always says what it
   //    will do NEXT, not what it just did.
   if (document.documentElement.classList.contains('dark')) {
-    toggleButton.textContent = 'Light Mode';
+    toggleButton.textContent = 'Lights Off';
   } else {
-    toggleButton.textContent = 'Dark Mode';
+    toggleButton.textContent = 'Lights On';
   }
 });
 
 // ==========================================
 // ONLY ADD YOUR OWN CODE BELOW THIS LINE
 // ==========================================
+console.log('My page loaded');
