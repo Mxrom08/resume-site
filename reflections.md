@@ -27,8 +27,10 @@ In this lesson I learned how to form headings, sub heading, paragraphs, and list
 ## Lesson 4 — CSS
 ## Lesson 4a - CSS
 **I learned that there is ranking to css.** If a line of code is more specific then another line of conflicting code then it will take the more specific line of code as the output. It doesn't matter if the more specific line of code comes earlier that the less specific line. Padding is the spacing inside a rectangle between the edge and content inside the rectangle. Cascade can make CSS so much harder because there could be a hidden piece of code that conflicts with the newest line of code you're trying to write out but it doesn't work because that hidden piece of code is more specific than the line of code you're writing.
-## 4b-tailwind
+## 4b-Tailwind
 I picked the bold layout because it seemed like a pretty basic and simply layout. It was also pretty easy on my eyes and I think the colors make it look really cool. One class I now know for CSS is the text class.
+## 4c-Headshot
+I picked a photo as I assumed people can get my initials just from my name which is all over the page. The only thing that surprised me about moving my file into the right place was that it had to be in the exact same folder as my index.html so it would work.
 ## Lesson 5 — JavaScript
 <!-- TODO -->
 
